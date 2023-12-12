@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+header > img {
+    width: 200px;
+    height: 100px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+.ul_nav {
+    text-decoration: underline;
+}
+
+.hire {
+    background-color: turquoise;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 10px;
+    border: none;
+}
+.download {
+    background-color: darkgray;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 10px;
+    border: none;
+}
+
+.Contact {
+    text-align: center;
+    padding: 20px;
+    height: max-content;
+    
+}
+
+.about {
+    display:flex;
+    justify-content: center;
+    padding: 10px 10%;
+    align-items: center;
+}
